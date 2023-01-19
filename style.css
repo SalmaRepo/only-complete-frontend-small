@@ -10,6 +10,7 @@ body {
 .my-nav {
   /* border: 2px solid red; */
   display: flex;
+  flex-wrap:wrap;
   padding: 10px;
   position: fixed;
   top: 0;
@@ -45,11 +46,14 @@ main {
   /* border: 2px solid green; */
   margin-top: 100px;
   margin-bottom: 20px;
+  display: flex;
+  flex-wrap:wrap;
 }
 
 .home-home {
   /* border: 2px solid grey; */
   display: flex;
+  flex-wrap:wrap;
   margin: 20px 5px 30px 5px;
   background-image: url("./Images/Homeback.jpg");
   background-repeat: no-repeat;
@@ -98,6 +102,8 @@ main {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  display: flex;
+  flex-wrap:wrap;
 }
 
 .aboutall a img {
@@ -279,9 +285,10 @@ main {
 .howsell-text {
   margin: 20px;
   /* border: 2px solid red; */
-  display: flex;
   justify-content: space-evenly;
   align-items: center;
+  display: flex;
+  flex-wrap:wrap;
 }
 
 .howsell-text a {
@@ -368,6 +375,8 @@ p {
   align-items: center;
   background-repeat: no-repeat;
   background-size: cover;
+  display: flex;
+  flex-wrap:wrap;
 }
 .contact-top ul {
   /* border:2px solid black; */
