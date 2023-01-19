@@ -327,12 +327,11 @@ p {
 .howsell-text h4 {
   border: 2px solid black;
   border-radius: 8px;
-  padding: 5px 5px 5px 60px;
+  padding: 5px 5px 5px 50px;
   margin: 30px;
   font-size: 30px;
   color: black;
   background-color: aliceblue;
-  text-align:center;
 }
 
 .howsell-text h4:hover {
